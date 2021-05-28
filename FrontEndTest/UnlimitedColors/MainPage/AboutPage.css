@@ -1,0 +1,159 @@
+#HeadlineBackgroundIMG img{
+    position: absolute;
+    top: -20px;
+    right: 0px;
+}
+#HeadlineBackgroundContent{
+
+}
+#GrayBackground img{
+   position: absolute;
+   left: 0;
+}
+#Carousel{
+    position: absolute;
+    top: 1100px;
+}
+#Carousel h1{
+    font-size: 50px;
+}
+#theCarousel{
+    margin-top: 50px;
+}
+#bubbleHead{
+    position: relative;
+    top: 1200px;
+}
+#OrangeBackground{
+    position: absolute;
+    left: 0px;
+    top: 3200px;
+}
+.orangeSec{
+    position: relative;
+    top: 450px;
+    z-index: 1000;
+}
+.orangeSec .btn{
+    position: relative;
+    left: 100px;
+}
+#signup{
+  position: relative;
+  top: 2300px;
+
+}
+footer{
+  position: relative;
+  top: 2100px;
+}
+.footerText{
+  position: relative;
+  bottom: -450px;
+  color: white;
+}
+.multi-item-carousel{
+    .carousel-inner{
+      > .item{
+        transition: 500ms ease-in-out left;
+      }
+      .active{
+        &.left{
+          left:-33%;
+        }
+        &.right{
+          left:33%;
+        }
+      }
+      .next{
+        left: 33%;
+      }
+      .prev{
+        left: -33%;
+      }
+      @media all and (transform-3d), (-webkit-transform-3d) {
+        > .item{
+          // use your favourite prefixer here
+          transition: 500ms ease-in-out left;
+          transition: 500ms ease-in-out all;
+          backface-visibility: visible;
+          transform: none!important;
+        }
+      }
+    }
+    .carouse-control{
+      &.left, &.right{
+        background-color: none;;
+      }
+    }
+  }
+  @media only screen and (max-width: 768px) {
+  
+    #GrayBackground img{
+        /* position: absolute;
+        top: 700px;*/
+        height: 1600px; 
+    }
+    #bubbleHead{
+      position: relative;
+      top: 600px;
+      
+    }
+    #bubbleHead h1 p{
+      font-size: 10px; 
+    }
+    
+    #OrangeBackground{
+      position: relative;
+      top:350px ;
+    }
+    #OrangeBackground .display-1{
+      font-size: 20px;
+    }
+    #OrangeBackground p{
+      font-size: 10px;
+    }
+    #OrangeBackground .orangeSec{
+      position: relative;
+      top: 230px;
+    }
+    #OrangeBackground .btn{
+      margin: 0 auto;
+      position: relative;
+      left: 45%;
+    }
+    #signup{
+      position: relative;
+      top: 400px;
+    }
+
+.footerText{
+    position: relative;
+    top: 200px;
+    z-index: 1000;
+} 
+footer{
+  height: auto;
+  position: relative;
+  top: 200px;
+}
+/* footer img{
+    position: absolute;
+    top: -1500px;
+    height: 300px;
+} */
+.buttons{
+   position: absolute;
+   top: -25px;
+    
+}
+footer h6{
+    display: none;
+}
+footer p{
+    display: none;
+}
+ 
+  }
+  
+ 

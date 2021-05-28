@@ -1,0 +1,226 @@
+body{
+    height: 2500px;
+}
+.imageContainer{
+    position: relative;
+    top: 0px;
+    float: right;
+
+    z-index: 1;
+    
+}
+.imageContainerBackground{
+    position: absolute;
+    top: 800px;
+}
+.HeadLine{
+    position: absolute;
+    top: 400px;
+    left: 300px;
+
+}
+.image4{
+    position: relative;
+    top: 250px;
+}
+.intro
+/* .headline{
+    display: flex;
+    align-items: center;
+} */
+.dropdownHead{
+    position: absolute;
+    top: 900px;
+    z-index: 1000;
+}
+.dropDownInfo{
+    position: absolute;
+    top: 1100px;
+    z-index: 1000;
+}
+.dropDownInfoTwo{
+    position: absolute;
+    top: 1200px;
+    z-index: 1000;
+}
+.dropDownInfoThree{
+    position: absolute;
+    top: 1300px;
+    z-index: 1000;
+}
+.formSec{
+    position: relative;
+    top: 480px;
+}
+/* .ReefPicOne{
+    position: absolute;
+    top: 0px;
+    z-index: 1000;
+    right: 500px;
+}
+.ReefPicTwo{
+    position: absolute;
+    top: 1300px;
+    z-index: 1000;
+    right: 200px;
+} */
+
+/* .imageContainerBackgroundTwo{
+    position: absolute;
+    top: 3210px;
+    z-index: 1000;
+
+} */
+ol {
+    max-width: 400px;
+    list-style: none;
+    counter-reset: my-awesome-counter;
+  }
+  ol li {
+    counter-increment: my-awesome-counter;
+  }
+  ol li::before {
+      padding-right: 20px;
+      left: -30px;
+      position: absolute;
+      float: left;
+      margin: 0;
+      display: inline;
+    font-size: 50px;
+    content: counter(my-awesome-counter) ". ";
+    color: #25325F;
+    font-weight: bold;
+  }
+.plates {
+    list-style: none;
+  }
+  
+.plates li:before  {
+    content: '✓';
+    background-color:#FCD877;
+    border-radius: 20px;
+  }
+
+.signup{
+
+    z-index: 1000;
+}
+#OrderedList{
+    position: relative;
+    top: 100px;
+    z-index: 1000;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.footerText{
+    position: relative;
+    bottom: -450px;
+    color: white;
+}
+footer{
+    
+}
+.Image3 .imageMobile{
+    position: absolute;
+    right: -150px;
+    top: 400px;
+}
+.signupText{
+    position: relative;
+    top: 2200px;
+}
+@media only screen and (max-width: 768px) {
+    .HeadLine{
+        position: absolute;
+        left: 0px;
+        top: 660px;
+    }
+    .imageContainerBackground img{
+        /* position: absolute;
+        top: 700px;*/
+        height: 3300px; 
+    }
+    #accordionT{
+        position: relative;
+        top: 350px;
+    }
+    .ImagePeeps{
+        position: absolute;
+        left: 80px;
+        z-index: 900;
+    }
+    .imageMobile{
+        position: absolute;
+        top: 350px;
+        left: 200px;
+        z-index: 1000;
+    }
+    #OrderedList{
+        position: relative;
+        top: 950px;
+        margin: 0 auto;
+        left: 50px;
+    }
+    .image4{
+        position: relative;
+        top: 950px;
+        z-index: 1000;
+        left: -750px;
+    }
+  #formsection{
+      position: absolute;
+      top: 4000px;
+  }
+  .formSec{
+      position: absolute;
+      top: 30px;
+      font-size: 15px;
+      
+  }
+  .formSec h1{
+      font-size: 30px;
+     
+  }
+ .panelLeft{
+     width: 350px;
+     
+     padding-bottom: 20px;
+ }
+ .panelCenter{
+     width: 450px;
+     padding-bottom: 20px;
+ }
+ .panelRight{
+     width: 350px;
+     padding-bottom: 20px;
+ }
+#panelSection{
+    position: absolute;
+    top: 4300px;
+    z-index: 1000;
+}
+.footerText{
+    position: absolute;
+    top: 5990px;
+    z-index: 1000;
+}
+footer img{
+    position: absolute;
+    top: 6000px;
+    height: 300px;
+}
+.buttons{
+   position: absolute;
+   top: -25px;
+    
+}
+footer h6{
+    display: none;
+}
+footer p{
+    display: none;
+}
+ 
+  }

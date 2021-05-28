@@ -1,0 +1,170 @@
+ol {
+    max-width: 400px;
+    list-style: none;
+    counter-reset: my-awesome-counter;
+  }
+  ol li {
+    counter-increment: my-awesome-counter;
+  }
+  ol li::before {
+      padding-right: 20px;
+    
+      
+      margin: 0;
+      display: inline;
+    font-size: 50px;
+    content: counter(my-awesome-counter) ". ";
+    color: #25325F;
+    font-weight: bold;
+  }
+.plates {
+    list-style: none;
+  }
+  
+.plates li:before  {
+    content: '✓';
+    background-color:#FCD877;
+    border-radius: 20px;
+  }
+
+  #HeadlineBackgroundIMG img{
+    position: absolute;
+    top: -20px;
+    right: 0px;
+}
+
+#panelSection{
+    position: relative;
+    top: 60px;
+}
+#GrayBackground img{
+    position: absolute;
+    left: 0;
+    height: 2500px;
+ }  
+ #InfoSec{
+     position: relative;
+     top: 200px;
+ }
+ #FAQ{
+     z-index: 1000;
+     position: relative;
+     margin-top: 550px;
+ }
+
+ .arrow {
+    border: solid #25325F;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+  }
+  .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  #OrangeBackground{
+    position: absolute;
+    left: 0px;
+    top: 2700px;
+}
+.orangeSec{
+    position: relative;
+    top: 450px;
+    z-index: 1000;
+}
+.orangeSec .btn{
+    position: relative;
+    left: 100px;
+}
+#signup{
+    position: relative;
+    top:700px;
+  }
+  footer{
+    position: relative;
+    top: 500px;
+  }
+  .footerText{
+    position: relative;
+    bottom: -450px;
+    color: white;
+  }
+  .panelCenter{
+      width: 400px;
+  }
+
+  @media only screen and (max-width: 768px) {
+  
+    #GrayBackground img{
+        /* position: absolute;
+        top: 700px;*/
+        height: 2400px; 
+    }
+   
+    
+    #OrangeBackground{
+      position: relative;
+      top:-100px ;
+    }
+    #OrangeBackground .display-1{
+      font-size: 20px;
+    }
+    #OrangeBackground p{
+      font-size: 10px;
+    }
+    #OrangeBackground .orangeSec{
+      position: relative;
+      top: 230px;
+    }
+    #OrangeBackground .btn{
+      margin: 0 auto;
+      position: relative;
+      left: 45%;
+    }
+    #signup{
+      position: relative;
+      top: -100px;
+    }
+
+.footerText{
+    position: relative;
+    top: 200px;
+    z-index: 1000;
+} 
+footer{
+  height: auto;
+  position: absolute;
+  top: 4600px;
+}
+/* footer img{
+    position: absolute;
+    top: -1500px;
+    height: 300px;
+} */
+.buttons{
+   position: absolute;
+   top: -25px;
+    
+}
+footer h6{
+    display: none;
+}
+footer p{
+    display: none;
+}
+#panelSection1{
+    position: relative;
+    top: 200px;
+}
+
+#panelSection{
+   position: relative;
+   top: 0;
+   z-index: 1000;
+}
+#FAQ{
+    position: relative;
+    top: -150px;
+}
+  }

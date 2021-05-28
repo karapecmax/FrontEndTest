@@ -1,0 +1,135 @@
+.arrow {
+    border: solid #25325F;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+
+  }
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
+#panelSection p{
+    font-size: 15px;
+}
+#GrayBackground img{
+    position: absolute;
+    left: 0;
+    height: 3600px;
+ }
+ #HeadlineBackgroundIMG img{
+    position: absolute;
+    top: -20px;
+    right: 0px;
+}
+ #panelSection{
+     position: relative;
+     top: 100px;
+ }
+ #panelSection1{
+    position: relative;
+    top: 500px;
+}
+#OrangeBackground{
+    position: absolute;
+    left: 0px;
+    top: 3900px;
+}
+.orangeSec{
+    position: relative;
+    top: 450px;
+    z-index: 1000;
+}
+.orangeSec .btn{
+    position: relative;
+    left: 100px;
+}
+footer{
+    position: relative;
+    top: 1600px;
+  }
+  .footerText{
+    position: relative;
+    bottom: -450px;
+    color: white;
+  }
+
+  #signup{
+    position: relative;
+    top:1750px;
+  
+  }
+
+  @media only screen and (max-width: 768px) {
+  
+    #GrayBackground img{
+        /* position: absolute;
+        top: 700px;*/
+        height: 3400px; 
+    }
+    #bubbleHead{
+      position: relative;
+      top: 600px;
+      
+    }
+    #bubbleHead h1 p{
+      font-size: 10px; 
+    }
+    
+    #OrangeBackground{
+      position: relative;
+      top:350px ;
+    }
+    #OrangeBackground .display-1{
+      font-size: 20px;
+    }
+    #OrangeBackground p{
+      font-size: 10px;
+    }
+    #OrangeBackground .orangeSec{
+      position: relative;
+      top: 230px;
+    }
+    #OrangeBackground .btn{
+      margin: 0 auto;
+      position: relative;
+      left: 45%;
+    }
+    #signup{
+      position: relative;
+      top: 350px;
+    }
+
+.footerText{
+    position: relative;
+    top: 200px;
+    z-index: 1000;
+} 
+footer{
+  height: auto;
+  position: relative;
+  top: 200px;
+}
+/* footer img{
+    position: absolute;
+    top: -1500px;
+    height: 300px;
+} */
+.buttons{
+   position: absolute;
+   top: -25px;
+    
+}
+footer h6{
+    display: none;
+}
+footer p{
+    display: none;
+}
+#panelSection1{
+    position: relative;
+    top: 200px;
+}
+ 
+  }
+  
